@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Sanchez&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "Sanchez", serif;
+	background-color: var(--main-bg);
+	color: var(--txt-color);
+}
+
+.r-btn {
+	background-color: transparent;
+	border: none;
+	color: var(--main-color);
+}
