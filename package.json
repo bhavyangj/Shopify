@@ -1,25 +1,31 @@
 {
-	"name": "shopify",
-	"version": "1.0.0",
-	"description": "",
-	"main": "backend/server.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "node backend/server.js",
-		"dev": "nodemon backend/server.js"
-	},
-	"author": "Bhavyang Jariwala",
-	"license": "ISC",
-	"dependencies": {
-		"bcryptjs": "^2.4.3",
-		"body-parser": "^1.20.0",
-		"cookie-parser": "^1.4.6",
-		"dotenv": "^16.0.0",
-		"express": "^4.18.1",
-		"jsonwebtoken": "^8.5.1",
-		"mongoose": "^6.3.2",
-		"nodemailer": "^6.7.5",
-		"nodemon": "^2.0.16",
-		"validator": "^13.7.0"
-	}
+  "name": "shopify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "backend/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node init && node backend/server.js",
+    "dev": "node init && nodemon backend/server.js"
+  },
+  "author": "Bhavyang Jariwala",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "bootstrap": "^5.1.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.2",
+    "nodemailer": "^6.7.5",
+    "nodemon": "^2.0.16",
+    "react-bootstrap": "^2.3.1",
+    "react-icons": "^4.3.1",
+    "styled-components": "^5.3.5",
+    "validator": "^13.7.0"
+  }
 }
